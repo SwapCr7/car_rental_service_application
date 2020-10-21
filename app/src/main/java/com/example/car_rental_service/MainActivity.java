@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
       //  DBManager db = new DBManager(this);
    //     String result = db.addRecord("tanishk", "khare","tanishk123","hello","admin","tanishkkhare@gmail.com","6822944658","409 summit avenue","Arlington","Texas","76013","1001773469","active","no");
     }
+    public void register(View view) {
+        startActivity(new Intent(this, Register.class));
+    }
     public void checkValidUser(View view) {
         username = findViewById(R.id.userText);
         password = findViewById(R.id.pwdText);
