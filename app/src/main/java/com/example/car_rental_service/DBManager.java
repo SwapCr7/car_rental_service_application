@@ -6,9 +6,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 
 public class DBManager extends SQLiteOpenHelper
 {
@@ -63,7 +60,8 @@ public class DBManager extends SQLiteOpenHelper
         if(res== -1)
             return "failed";
         else
-            return "Account Created Successfully";
+            return "Registration Successfull";
 
     }
+
 }

@@ -32,7 +32,7 @@ public class ManagerHomeScreen extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-
+    public void viewProfile(View view) {startActivity(new Intent(this, ViewProfile.class));}
     public void change_password(View view){
         startActivity(new Intent(this, change_password.class));
     }

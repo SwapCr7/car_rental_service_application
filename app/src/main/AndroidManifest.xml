@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Register"></activity>
+        <activity android:name=".revokeRenter"></activity>
+        <activity android:name=".editUserRole" />
+        <activity android:name=".updateUserProfileAdmin" />
+        <activity android:name=".UserDetails" />
+        <activity android:name=".UserSummaryList" />
+        <activity android:name=".SearchUsers" />
+        <activity android:name=".AdminViewProfile" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".ViewProfile" />
+        <activity android:name=".Register" />
         <activity android:name=".change_password" />
         <activity android:name=".AdminHomeScreen" />
         <activity android:name=".ManagerHomeScreen" />

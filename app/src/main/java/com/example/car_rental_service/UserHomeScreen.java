@@ -35,4 +35,7 @@ public class UserHomeScreen extends AppCompatActivity {
     public void change_password(View view){
         startActivity(new Intent(this, change_password.class));
     }
+    public void viewProfile(View view) {startActivity(new Intent(this, ViewProfile.class));}
+    public void updateProfile(View view) {startActivity(new Intent(this, UpdateProfile.class));}
+
 }

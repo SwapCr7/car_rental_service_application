@@ -32,7 +32,9 @@ public class AdminHomeScreen extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+    public void viewProfile(View view) {startActivity(new Intent(this, AdminViewProfile.class));}
     public void change_password(View view){
         startActivity(new Intent(this, change_password.class));
     }
+    public void SearchUsers(View view) {startActivity(new Intent(this, SearchUsers.class));}
 }

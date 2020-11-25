@@ -46,7 +46,7 @@
         app:layout_constraintTop_toTopOf="@+id/toolbar4" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/searchUserButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
@@ -72,7 +72,7 @@
         android:text="Search Reserved Rental"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintTop_toBottomOf="@+id/searchUserButton" />
 
     <Button
         android:id="@+id/button12"
@@ -83,6 +83,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="136dp"
         android:layout_marginRight="136dp"
+        android:onClick="viewProfile"
         android:text="View Profile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -95,7 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="171dp"
         android:layout_marginLeft="171dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="54dp"
         android:layout_marginEnd="152dp"
         android:layout_marginRight="152dp"
         android:text="Logout"
